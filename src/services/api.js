@@ -44,6 +44,9 @@ export const httpMessages = {
     server: {
       [InternalServerError]: "خطای سرور.",
     },
+    network: {
+      ["ERR_NETWORK"]: "خطای قطعی اینترنت.",
+    },
   },
 };
 
